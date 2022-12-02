@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="untitled" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.doctorhouse.HomeGController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="prescription" layoutX="169.0" layoutY="1.0" mnemonicParsing="false" onAction="#goToPrescription" text="Prescription" />
+            <Button fx:id="home" layoutX="258.0" layoutY="1.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="26.0" prefWidth="82.0" text="Home" />
+            <Button fx:id="notification" layoutX="351.0" layoutY="1.0" mnemonicParsing="false" onAction="#goToNotification" prefHeight="26.0" prefWidth="82.0" text="Notification" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
